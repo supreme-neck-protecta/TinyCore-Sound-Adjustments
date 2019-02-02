@@ -4,7 +4,7 @@
 SSH into PiCorePlayer
 see PiCorePlayer How-To for SSH instructions
 
-## Install
+## Install ##### from home directory 
 1) wget https://github.com/dynobot/TinyCore-Sound-Adjustments/raw/master/install.sh
 2) sudo chmod 755 install.sh
 3) sudo ./install.sh
