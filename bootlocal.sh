@@ -2,13 +2,13 @@
 # put other system startup commands here
 
 #Reduce Audio thread latency
-chrt -f -p 57 $(pidof ksoftirqd/0)
-chrt -f -p 57 $(pidof ksoftirqd/1)
-chrt -f -p 57 $(pidof ksoftirqd/2)
-chrt -f -p 57 $(pidof ksoftirqd/3)
+chrt -f -p 43 $(pidof ksoftirqd/0)
+chrt -f -p 43 $(pidof ksoftirqd/1)
+chrt -f -p 43 $(pidof ksoftirqd/2)
+chrt -f -p 43 $(pidof ksoftirqd/3)
 
 #Reduce operating system latency
-echo noop > /sys/block/mmcblk0/queue/scheduler
+#echo noop > /sys/block/mmcblk0/queue/scheduler
 echo 1000000 > /proc/sys/kernel/sched_latency_ns
 echo 100000 > /proc/sys/kernel/sched_min_granularity_ns
 echo 25000 > /proc/sys/kernel/sched_wakeup_granularity_ns
@@ -23,5 +23,5 @@ echo "${GREEN}Running bootlocal.sh..."
 
 #Squeezelite FIFO priority
 sleep 5
-chrt -f -p 37 $(pidof squeezelite)
+chrt -f -p 27 $(pidof squeezelite)
 ~
