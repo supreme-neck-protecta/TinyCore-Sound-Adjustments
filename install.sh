@@ -10,8 +10,7 @@ border()
 
 border 'Downloading Sound File'
 
-wget https://github.com/dynobot/Linux-Audio-Adjustments/raw/master/Sound.sh -O /usr/bin/Sound.sh
-
+wget https://github.com/dynobot/TinyCore-Sound-Adjustments/raw/master/bootlocal.sh
 mv /opt/bootlocal.sh /opt/bootlocal.sh.bak
 mv bootlocal.sh /opt/bootlocal.sh
 sudo chmod 755 bootlocal.sh
