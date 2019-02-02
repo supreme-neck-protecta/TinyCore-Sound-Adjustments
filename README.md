@@ -1,4 +1,4 @@
-# TinyCore-Sound-Adjustments - PiCorePlayer
+# TinyCore Sound-Adjustments
 
 ## TinyCore Linux Based RPi tweaks for improved sound.
 
