@@ -14,7 +14,7 @@ echo 100000 > /proc/sys/kernel/sched_min_granularity_ns
 echo 25000 > /proc/sys/kernel/sched_wakeup_granularity_ns
 
 #Squeezelite FIFO priority
-chrt -f -p 87 $(pidof squeezelite)
+chrt -f -p 43 $(pidof squeezelite)
 
 GREEN="$(echo -e '\033[1;32m')"
 
