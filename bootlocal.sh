@@ -23,5 +23,5 @@ echo "${GREEN}Running bootlocal.sh..."
 
 #Squeezelite FIFO priority
 sleep 5
-chrt -f -p 43 $(pidof squeezelite)
+chrt -f -p 37 $(pidof squeezelite)
 ~
