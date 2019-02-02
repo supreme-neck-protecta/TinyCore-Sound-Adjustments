@@ -1,9 +1,9 @@
 # TinyCore-Sound-Adjustments
 
 ## Install - tested on PiCorePlayer
-wget
-sudo chmod 755 install.sh
-sudo ./install.sh
+1) wget
+2) sudo chmod 755 install.sh
+3) sudo ./install.sh
 
 
 ## Remove 
