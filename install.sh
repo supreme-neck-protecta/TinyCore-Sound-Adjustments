@@ -8,7 +8,7 @@ border()
     sleep 1
 }
 
-border 'Downloading Sound File'
+border 'Installing Sound File'
 sudo mv /opt/bootlocal.sh /opt/bootlocal.sh.bak
 wget https://github.com/dynobot/TinyCore-Sound-Adjustments/raw/master/bootlocal.sh
 sudo chmod 755 bootlocal.sh
