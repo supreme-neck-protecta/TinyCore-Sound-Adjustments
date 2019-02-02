@@ -1,5 +1,14 @@
 # TinyCore-Sound-Adjustments - PiCorePlayer
 
+## TinyCore Linux Based RPi tweaks for improved sound.
+
+To improve the sound of the Raspberry Pi using TinyCore Linux several parameters can be adjusted.
+
+1) Improving the priority of the Audio threads
+2) Change audio thread scheduling from 'other' to FIFO
+3) Improving the latency of the Operating System with Kernel adjustments
+4) Change Squeezelite priority and thread scheduling to FIFO
+
 ## Prerequisites
 - SSH into PiCorePlayer
 - see PiCorePlayer How-To for SSH instructions
