@@ -1,8 +1,9 @@
 # TinyCore Sound-Adjustments
 
 ## TinyCore Linux Based RPi tweaks for improved sound.
+- For Debian based systems see [Debian Sound Tweaks](https://github.com/dynobot/Linux-Audio-Adjustments)
 
-To improve the sound of the Raspberry Pi using TinyCore Linux several parameters can be adjusted.
+To improve the sound of the Raspberry Pi using TinyCore Linux several parameters can be adjusted. 
 
 1) Improving the priority of the Audio threads
 2) Change audio thread scheduling from 'other' to FIFO
