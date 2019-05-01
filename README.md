@@ -1,4 +1,4 @@
-# TinyCore Sound-Adjustments
+# TinyCore Linux Sound-Adjustments
 
 ## TinyCore Linux Based RPi tweaks for improved sound.
 - For Debian based systems see [Debian Sound Tweaks](https://github.com/dynobot/Linux-Audio-Adjustments)
@@ -14,6 +14,8 @@ To improve the sound of the Raspberry Pi using TinyCore Linux several parameters
 - SSH into PiCorePlayer
 - see PiCorePlayer How-To for SSH instructions
 - Run commands from home directory
+
+*Note: System will reboot after install and removal*
 
 ## Install
 1) wget https://github.com/dynobot/TinyCore-Sound-Adjustments/raw/master/install.sh
