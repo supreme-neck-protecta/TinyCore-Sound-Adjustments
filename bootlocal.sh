@@ -9,9 +9,9 @@ chrt -f -p 43 $(pidof ksoftirqd/3)
 
 #Reduce operating system latency
 #echo noop > /sys/block/mmcblk0/queue/scheduler
-echo 1000000 > /proc/sys/kernel/sched_latency_ns
-echo 100000 > /proc/sys/kernel/sched_min_granularity_ns
-echo 25000 > /proc/sys/kernel/sched_wakeup_granularity_ns
+#echo 1000000 > /proc/sys/kernel/sched_latency_ns
+#echo 100000 > /proc/sys/kernel/sched_min_granularity_ns
+#echo 25000 > /proc/sys/kernel/sched_wakeup_granularity_ns
 
 GREEN="$(echo -e '\033[1;32m')"
 
