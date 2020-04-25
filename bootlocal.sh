@@ -2,10 +2,10 @@
 # put other system startup commands here
 
 #Reduce Audio thread latency
-chrt -f -p 43 $(pidof ksoftirqd/0)
-chrt -f -p 43 $(pidof ksoftirqd/1)
-chrt -f -p 43 $(pidof ksoftirqd/2)
-chrt -f -p 43 $(pidof ksoftirqd/3)
+sudo chrt -f -p 43 $(pidof ksoftirqd/0)
+sudo chrt -f -p 43 $(pidof ksoftirqd/1)
+sudo chrt -f -p 43 $(pidof ksoftirqd/2)
+sudo chrt -f -p 43 $(pidof ksoftirqd/3)
 
 #Reduce operating system latency
 #echo 1000000 > /proc/sys/kernel/sched_latency_ns
@@ -22,5 +22,5 @@ echo "${GREEN}Running bootlocal.sh..."
 
 #Squeezelite FIFO priority
 sleep 5
-chrt -f -p 27 $(pidof squeezelite)
+sudo chrt -f -p 27 $(pidof squeezelite)
 ~
