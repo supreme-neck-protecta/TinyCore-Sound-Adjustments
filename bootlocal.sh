@@ -1,18 +1,15 @@
 #!/bin/sh
 # put other system startup commands here
 
+GREEN="$(echo -e '\033[1;32m')"
+
+
 #Reduce Audio thread latency
 sudo chrt -f -p 43 $(pidof ksoftirqd/0)
 sudo chrt -f -p 43 $(pidof ksoftirqd/1)
 sudo chrt -f -p 43 $(pidof ksoftirqd/2)
 sudo chrt -f -p 43 $(pidof ksoftirqd/3)
 
-#Reduce operating system latency
-#echo 1000000 > /proc/sys/kernel/sched_latency_ns
-#echo 100000 > /proc/sys/kernel/sched_min_granularity_ns
-#echo 25000 > /proc/sys/kernel/sched_wakeup_granularity_ns
-
-GREEN="$(echo -e '\033[1;32m')"
 
 echo
 echo "${GREEN}Running bootlocal.sh..."
@@ -21,6 +18,6 @@ echo "${GREEN}Running bootlocal.sh..."
 #pCPstop------
 
 #Squeezelite FIFO priority
-sleep 5
-sudo chrt -f -p 27 $(pidof squeezelite)
+#sleep 5
+#sudo chrt -f -p 27 $(pidof squeezelite)
 ~
