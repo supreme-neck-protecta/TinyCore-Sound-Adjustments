@@ -14,4 +14,3 @@ sudo chrt -f -p 43 $(pidof ksoftirqd/0)
 sudo chrt -f -p 43 $(pidof ksoftirqd/1)
 sudo chrt -f -p 43 $(pidof ksoftirqd/2)
 sudo chrt -f -p 43 $(pidof ksoftirqd/3)
-
