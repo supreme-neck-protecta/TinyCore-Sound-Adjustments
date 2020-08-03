@@ -15,7 +15,7 @@ To improve the sound of the Raspberry Pi using TinyCore Linux several parameters
 - SSH into PiCorePlayer
 - see PiCorePlayer How-To for SSH instructions
 - Run commands from home directory
-## NOT FOR RPi4
+
 
 *Note: System will reboot after install and removal*
 
