@@ -16,6 +16,6 @@ sudo mv bootlocal.sh /opt/bootlocal.sh
 
 #sudo filetool.sh -b
 
-border 'Rebooting System'
+border 'Reboot System to take effect'
 
-sudo reboot
+#sudo reboot
