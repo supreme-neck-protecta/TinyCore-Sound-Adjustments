@@ -10,7 +10,7 @@ echo "${GREEN}Running bootlocal.sh..."
 #pCPstop------
 
 #Reduce Audio thread latency
-sudo chrt -f -p 43 $(pidof ksoftirqd/0)
-sudo chrt -f -p 43 $(pidof ksoftirqd/1)
-sudo chrt -f -p 43 $(pidof ksoftirqd/2)
-sudo chrt -f -p 43 $(pidof ksoftirqd/3)
+chrt -f -p 43 $(pidof ksoftirqd/0)
+chrt -f -p 43 $(pidof ksoftirqd/1)
+chrt -f -p 43 $(pidof ksoftirqd/2)
+chrt -f -p 43 $(pidof ksoftirqd/3)
