@@ -14,7 +14,7 @@ wget https://github.com/dynobot/TinyCore-Sound-Adjustments/raw/master/bootlocal.
 sudo chmod 775 bootlocal.sh
 sudo mv bootlocal.sh /opt/bootlocal.sh
 
-#sudo filetool.sh -b
+sudo filetool.sh -b
 
 border 'Reboot System to take effect'
 
