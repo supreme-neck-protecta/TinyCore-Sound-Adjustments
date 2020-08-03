@@ -12,7 +12,7 @@ border 'Removing Sound Adjustments'
 sudo rm install.sh
 sudo rm /opt/bootlocal.sh
 sudo mv /opt/bootlocal.sh.bak /opt/bootlocal.sh
-#sudo filetool.sh -b
+sudo filetool.sh -b
 
 border 'Rebooting System'
 sudo reboot
